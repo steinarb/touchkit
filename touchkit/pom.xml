@@ -78,7 +78,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
-    
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <vaadin.version.maven>8.4.1</vaadin.version.maven>
@@ -97,7 +97,7 @@
     <build>
         <resources>
             <!-- These are also needed for the sources required by the GWT compiler
-            to be included in the produced JARs -->
+                 to be included in the produced JARs -->
             <resource>
                 <directory>src/main/java</directory>
             </resource>
@@ -132,7 +132,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
                 <version>3.0.2</version>
-            </plugin>            
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -153,7 +153,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!-- Implementation-Title and Implementation-Version come from the
-                            POM by default -->
+                                 POM by default -->
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                         <manifestEntries>
@@ -194,10 +194,10 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin> 
+            </plugin>
         </plugins>
     </build>
-	
+
     <dependencies>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
