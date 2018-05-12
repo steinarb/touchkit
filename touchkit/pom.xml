@@ -33,9 +33,6 @@
                     <plugin>
                         <artifactId>maven-deploy-plugin</artifactId>
                         <version>2.5</version>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -262,6 +259,13 @@
                 </executions>
             </plugin>
         </plugins>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>1.0-beta-6</version>
+            </extension>
+        </extensions>
     </build>
 
     <dependencies>
@@ -329,4 +333,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>ftp-maven-travis</id>
+            <url>ftp://maven.bang.priv.no/repository</url>
+        </repository>
+        <snapshotRepository>
+            <id>ftp-maven-travis</id>
+            <url>ftp://maven.bang.priv.no/repository</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
