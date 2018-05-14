@@ -355,7 +355,6 @@ div.v-progressbar-indeterminate {
 }
 
 .v-button-wrap {
-	display: block;
 	padding: 0 listLayoutMargin;
 	white-space: nowrap;
 	text-overflow: ellipsis;
