@@ -10,7 +10,7 @@
 @def redText #ed5931;
 
 @def fieldTextSize 16px;
- 
+
 /**
  * General borders
  */
@@ -324,13 +324,13 @@ div.v-progressbar-indeterminate {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	/* TODO separate these and all user select stuff to browser permutations */
 	-ms-user-select:none;
-	
+
 	box-shadow: buttonBoxShadow;
 	font-size: buttonFontSize;
 	font-weight: 500;
 	line-height:2;
 	color: buttonColor;
-	
+
 }
 
 .v-button:focus {
@@ -351,7 +351,7 @@ div.v-progressbar-indeterminate {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-ms-user-select:none;
-	
+
 }
 
 .v-button-wrap {
@@ -399,7 +399,7 @@ div.v-progressbar-indeterminate {
 .v-button .v-errorindicator {
 	float: left;
 }
-	
+
 a {
 	color: buttonColor;
 }
@@ -456,7 +456,7 @@ a {
 	transition: transform 0.3s linear;
 }
 
-.v-touchkit-navpanel-container, 
+.v-touchkit-navpanel-container,
 .v-touchkit-popover.v-touchkit-fullscreen .v-touchkit-navpanel-container {
 	position: absolute;
 	width: 100%;
@@ -467,7 +467,7 @@ a {
 	transition: opacity 0.15s linear;
 }
 
-.v-touchkit-navpanel-placeholder, 
+.v-touchkit-navpanel-placeholder,
 .v-touchkit-popover.v-touchkit-fullscreen .v-touchkit-navpanel-placeholder  {
 	position: absolute;
 	width: 100%;
@@ -494,7 +494,7 @@ a {
 	overflow:hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	
+
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-ms-user-select:none;
@@ -538,12 +538,12 @@ a {
 	color: #fff;
 }
 
-.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-contentcell { 
-    padding-right: listLayoutMargin;         
-} 
-.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-contentcell > * { 
+.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-contentcell {
+    padding-right: listLayoutMargin;
+}
+.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-contentcell > * {
     float:right;
-} 
+}
 
 .v-touchkit-componentgroup-row>.v-caption>.v-icon,
 .v-touchkit-navbutton .v-icon {
@@ -663,7 +663,7 @@ a {
 	box-shadow:  dropShadow;
 }
 
-.v-touchkit-navbar .v-touchkit-navbar-caption, 
+.v-touchkit-navbar .v-touchkit-navbar-caption,
 .v-touchkit-navpanel-placeholder > div,
 .v-touchkit-popover.v-touchkit-fullscreen .v-touchkit-navpanel-placeholder > div {
     line-height: 43px;
@@ -711,7 +711,7 @@ a {
 /* NavigationView */
 
 .v-touchkit-navview {
-	position:relative;	
+	position:relative;
 	/* full size by default */
 	width: 100%;
 	height: 100%;
@@ -724,7 +724,7 @@ a {
 	top: 43px;
 	bottom: toolbarHeight;
 	left: 0;
-	right: 0;	
+	right: 0;
 	overflow: auto;
 }
 .v-touchkit-navview-notoolbar .v-touchkit-navview-wrapper {
@@ -739,7 +739,7 @@ a {
 	right: 0;
 	border-top: windowBorder;
 	box-shadow: upperDropShadow;
-	
+
 	/* workaround for a strange bug in chrome that breaks scrolling (#17251) */
 	z-index: 0;
 }
@@ -789,7 +789,7 @@ a {
 
 /* touchkit sub window */
 .v-touchkit-popover {
-	
+
 }
 
 .v-window-modalitycurtain {
@@ -987,7 +987,7 @@ a {
 .v-touchkit-tabbar .v-csslayout-container,
 .v-touchkit-tabbar .v-csslayout-margin {
 	height:100%;
-	position:relative;	
+	position:relative;
 }
 
 .v-touchkit-tabbar-wrapper {
@@ -1109,7 +1109,7 @@ a {
 .v-position-top {
         top: 0px;
 }
-	
+
 .v-Notification-error {
 	background: notificationErrorBackground;
 }
@@ -1132,7 +1132,7 @@ a {
 	color: darkText;
 	margin-top: 10px;
 }
-	
+
 /* Table */
 .v-table {
 overflow: hidden;
@@ -1232,7 +1232,7 @@ overflow: hidden;
 }
 
 .v-table-generated-row {
-	
+
 }
 
 .v-table-cell-content {
@@ -1529,7 +1529,7 @@ vertical-align: middle;
 
 .v-filterselect-prevpage span {
 	}
-	
+
 .v-filterselect-prevpage:before,
 .v-filterselect-nextpage:before,
 .v-filterselect-prevpage-off:before,
@@ -1554,7 +1554,7 @@ vertical-align: middle;
 
 .v-filterselect-nextpage-off,
 .v-filterselect-prevpage-off {
-	
+
 }
 
 .v-filterselect-status {
@@ -1791,7 +1791,7 @@ select.v-select-select::-ms-expand {
 }
 
 .v-touchkit-datepicker>input {
-	/* Full width native date picker needs to be 100% width, 
+	/* Full width native date picker needs to be 100% width,
 	 * especially important when empty in VCG (else ~20px wide) */
 	width:100%;
 }
@@ -1875,7 +1875,7 @@ select.v-select-select::-ms-expand {
 	right: 0;
 	border-top: listBorder;
 	}
-	
+
 /* ...hide from the first */
 .v-touchkit-componentgroup-cell > .v-select-optiongroup :first-child:before {
 	display: none;
@@ -1892,8 +1892,8 @@ select.v-select-select::-ms-expand {
 }
 
 /* strong selectors to override default margins */
-.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-row .v-formlayout-captioncell, 
-.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-row .v-formlayout-contentcell, 
+.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-row .v-formlayout-captioncell,
+.v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-row .v-formlayout-contentcell,
 .v-touchkit-verticalcomponentgroup .v-formlayout .v-formlayout-row .v-formlayout-errorcell {
 	padding:0;
 }
@@ -1921,7 +1921,7 @@ select.v-select-select::-ms-expand {
 	border-bottom: none;
 }
 
-.v-label-grey-title, 
+.v-label-grey-title,
 .v-layout > .v-caption>div
 {
 	font-size: fieldTextSize;
@@ -2210,7 +2210,7 @@ select.v-select-select::-ms-expand {
 }
 
 /* Navbar buttons and horizontal button group.
- * Note that these must be after all other 
+ * Note that these must be after all other
  * button styles to get properly overridden border radius etc
  */
 .v-touchkit-componentgroup-cell .v-button,
@@ -2235,11 +2235,11 @@ select.v-select-select::-ms-expand {
 }
 
 .v-touchkit-navbutton-back {
-	padding-left: listLayoutMargin;	
+	padding-left: listLayoutMargin;
 	padding-right: 20px;
 }
 .v-touchkit-navbutton-back {
-	padding-left: 20px;	
+	padding-left: 20px;
 	padding-right: listLayoutMargin;
 }
 .v-touchkit-navbutton-back:after {
@@ -2378,7 +2378,7 @@ select.v-select-select::-ms-expand {
 	margin-top: 8px;
 	line-height: 44px; /* margin-top does not affect font-icon */
 }
-	
+
 /* Strip some styles from buttons inside a componentgroup */
 
 .v-touchkit-horizontalbuttongroup .v-button-wrap {
@@ -2464,13 +2464,13 @@ select.v-select-select::-ms-expand {
 }
 
 .v-tree-node {
-	position:relative;    
+	position:relative;
 }
 
 .v-treetable-node-open:after,
 .v-tree-node-expanded:after {
 	content: "\25BC";
-}	
+}
 
 .v-tree-node-leaf:after {
 	content: "";
@@ -2480,16 +2480,16 @@ select.v-select-select::-ms-expand {
 .v-tree-node-expanded:after {
 	position:absolute;
 	top:12px;
-	left:6px;	
+	left:6px;
 }
 
 .v-treetable-node-closed::after,
 .v-treetable-node-open::after {
-	margin-right: 4px;	
+	margin-right: 4px;
 }
 
 .v-treetable-node-open {
-	
+
 }
 
 .v-menubar-submenu .v-menubar-menuitem-checked .v-menubar-menuitem-caption:after {
@@ -2534,7 +2534,7 @@ select.v-select-select::-ms-expand {
     top: 5px;
 }
 .v-cache-loading-indicator:after {
-	font-size:10px;	
+	font-size:10px;
 }
 
 .floatingIndex {
